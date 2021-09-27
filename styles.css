@@ -5,6 +5,7 @@ body {
 .parent-element {
   width: 1080px;
   margin: 0 auto;
+  position: relative;
 }
 
 .card {
@@ -12,6 +13,8 @@ body {
   height: 446px;
   border-radius: 20px;
   background-color: hsl(244, 38%, 16%);
+  margin-top: 25%;
+  
 }
 
 .image-container {
@@ -81,8 +84,9 @@ h1 {
   font-size: 20px;
   font-family: 'Lexend Deca', sans-serif;
   text-align: center;
+  width: 100%;
+  position: fixed;
   padding: 20px;
-  margin-bottom: 0;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
